@@ -51,7 +51,7 @@ public static int simpleConvertToGray(int red, int green, int blue) {
 }
 ```
 
-### Simple Conversion in Action 
+### Simple Conversion in Action
 
 Consider this image of leaf in RGB format.
 

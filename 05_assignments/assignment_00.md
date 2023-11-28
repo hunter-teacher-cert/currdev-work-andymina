@@ -74,7 +74,7 @@ following RGB combinations would make.
 - ______ = `rgb(0, 0, 0)`
 - ______ = `rgb(255, 255, 255)`
 
-*Answer*: Using an external aid (maybe [Google's RGB color picker](https://g.co/kgs/752LXz)?),
+*Answer*: Using an external aid (maybe [Google's RGB color picker](https://g.co/kgs/752LXz)? 🤔),
 describe in simple terms what colors describe in simple terms what colors the following
 RGB combinations would make.
 
