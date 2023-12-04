@@ -38,21 +38,21 @@ List The NY State Computer Science standards you will be covering in this unit. 
 
 Total length: 2 Weeks
 
-## Week 1 - Understanding Convolutions
+## Week 1 - Introduction to Convolutions
 
-- **00_intro**: introduction to convolutions and how they're used
-- **01_lab**: guided practice applying convolutions to grayscale images
-- **02_blur**: introduce blurring convolution and practice blurring images
-- **03_sharpen**: introduce sharpening convolution and practice sharpening images
-- **04_presentation**: (small groups) mini-presentation (< 5m) about something convolution related
+- **00_intro**: introduction to convolutions. only 1d
+- **01_2d_convolutions**: 2d convolutions; how convolutions are used
+- **02_code**: code-along for convolutions
+- **03_simple_kernels**: identity, shift, block average
+- **04_blur_sharpen_kernsl**: blur, sharpen kernels
 
-## Week 2 - Programming Convolutions
+## Week 2 - Advanced Convolutions
 
-- **05_creating_convolutions**: (small groups) practice applying their own convolutions to grayscale images
-- **06_color_convolutions**: color conversion from RGB -> grayscale to perform convolutions on color images
-- **07_sobel**: introduction to sobel convolution filter
-- **08_edge_detection**: guided practice using sobel edge detection
-- **09_project**: sobel edge detection in-class project
+- **05_gauss**: gaussian kernal
+- **06_edge_detection_theory**: introduction to how edge detection works
+- **07_sobel_and_scharr_theory**: sobel and scharr kernels for edges theory
+- **08_sobel_and_scharr_code**: code along to implement 07's theory
+- **09_test**: test on applying convolutions
 
 ---
 
