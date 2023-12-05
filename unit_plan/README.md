@@ -40,15 +40,15 @@ Total length: 2 Weeks
 
 ## Week 1 - Introduction to Convolutions
 
-- **00_intro**: introduction to convolutions. only 1d
-- **01_2d_convolutions**: 2d convolutions; how convolutions are used
-- **02_code**: code-along for convolutions
-- **03_simple_kernels**: identity, shift, block average
-- **04_blur_sharpen_kernsl**: blur, sharpen kernels
+- **00_intro**: introduction to convolutions. only 1d ([link](https://docs.google.com/presentation/d/11pdHPVojeB6OlbLgoNgd-CBpvJaT4RZveCoZ5TnaaW8/edit#slide=id.g1ec69d811b7_0_398))
+- **01_2d_convolutions**: 2d convolutions ([link](https://docs.google.com/presentation/d/1KBE6ZrM-yGWqdxQW7aD_52K_gtQfz4fl64GsiTuqy9k/edit?usp=sharing))
+- **02_practice**: 2d convolution practice ([link](https://docs.google.com/presentation/d/1K5xAPhNa2sEDRKEm8MVIFe3VDQFIsBr05fRWi-kWkCA/edit?usp=sharing))
+- **03_code**: code along for convolution
+- **04_simple_kernels**: identity, shift, blur, and sharpen kernels
 
 ## Week 2 - Advanced Convolutions
 
-- **05_gauss**: gaussian kernal
+- **05_gauss**: gaussian kernel and code
 - **06_edge_detection_theory**: introduction to how edge detection works
 - **07_sobel_and_scharr_theory**: sobel and scharr kernels for edges theory
 - **08_sobel_and_scharr_code**: code along to implement 07's theory
