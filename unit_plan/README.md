@@ -43,7 +43,7 @@ Total length: 2 Weeks
 - **00_intro**: introduction to convolutions. only 1d ([link](https://docs.google.com/presentation/d/11pdHPVojeB6OlbLgoNgd-CBpvJaT4RZveCoZ5TnaaW8/edit#slide=id.g1ec69d811b7_0_398))
 - **01_2d_convolutions**: 2d convolutions ([link](https://docs.google.com/presentation/d/1KBE6ZrM-yGWqdxQW7aD_52K_gtQfz4fl64GsiTuqy9k/edit?usp=sharing))
 - **02_practice**: 2d convolution practice ([link](https://docs.google.com/presentation/d/1K5xAPhNa2sEDRKEm8MVIFe3VDQFIsBr05fRWi-kWkCA/edit?usp=sharing))
-- **03_code**: code along for convolution
+- **03_code**: code along for convolution ([link](https://docs.google.com/presentation/d/1ri1wx5nZXclDErU9JYBHkpxxuox9BSF0x1K7xOt2n-w/edit?usp=sharing))
 - **04_simple_kernels**: identity, shift, blur, and sharpen kernels
 
 ## Week 2 - Advanced Convolutions
