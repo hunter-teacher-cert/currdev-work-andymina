@@ -18,9 +18,24 @@ Prior to this course, students should:
 
 Prior to this unit, students should:
 
-- be familiar with numpy for working with large 2d arrays
-- 2d arrays as representation of image in code
+- be familiar with numpy for working with large 2D arrays
+- 2D arrays as representations of images in code
 - know how to convert color images to grayscale
+
+There are four main principles to this unit:
+1. The slides function as notes
+  - Students should not need to take notes but instead can go through the slides again. The slides
+    are descriptive and visual enough to refer back to and self-teach the lesson
+2. We spend a lot of time on difficult concepts and theories.
+  - Lessons that involve a lot of theory or complex theory focus almost entirely on the theory. By the
+    time the lesson is over, students should have some understanding of how these complex systems work. After
+    class, they are expected to work on code that translates a portion of the theory they've learned into
+    practice.
+3. Discovery-based learning
+  - Students are most engaged and least confused when they can personally reach the same conclusions
+    that famous computer scientists did. The unit is delivered in a way where students discover new
+    solutions and techniques by transformative processes vs. an instructor just brain-dumping in a 45m
+    long lecture
 
 ---
 
