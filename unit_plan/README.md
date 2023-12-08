@@ -8,11 +8,29 @@
 
 (include here description of unit, what class(es) it fits into, when...)
 
+Students learn what convolution is and how it can be used to extract data, derive information, and modify images.
+
+Prior to this course, students should:
+
+- have some familiarity with calculus
+- be experienced with the Python programming language
+- have taken an introductory computer science course
+
+Prior to this unit, students should:
+
+- be familiar with numpy for working with large 2d arrays
+- 2d arrays as representation of image in code
+- know how to convert color images to grayscale
+
 ---
 
 ## Motivation for Unit
 
 (why have you decided to make this?)
+
+i like computer vision and i think it would cool to teach to high schoolers. the subject matter
+is difficult, but a great challenge for me as an educator to make this content digestable for high
+schoolers.
 
 ---
 
@@ -57,7 +75,7 @@ Total length: 2 Weeks
 ## Week 2 - Advanced Convolutions
 
 - **05_gaussian**: gaussian kernel ([link](https://docs.google.com/presentation/d/1h4kFeaTA_ZipaliPXnIYSE42pfDZcFE3QkcFABpYb5Y/edit?usp=sharing))
-- **06_edge_detection**: introduction to how edge detection works
+- **06_edge_detection**: introduction to how edge detection works and the prewitt kernel
 - **07_sobel**: sobel kernel (theory and code)
 - **08_laplace**: laplace kernel (theory and code)
 - **09_test**: test on applying convolutions
