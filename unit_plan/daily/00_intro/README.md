@@ -1,5 +1,7 @@
 # 00_intro
 
+Students are introduced to 1D convolution as a mean of extracting data from a list of numbers.
+
 ## Links
 
 [Lesson plan](https://docs.google.com/document/d/1h_uu9BZmIPmS5vF_BG1KEBw5Gjxku5z7ODJ1DmCUCuE/edit)
@@ -8,4 +10,4 @@
 
 [Homework](https://docs.google.com/document/d/18P0a9FXWDtzmptSAsCbzL_54EKOUWxGu9b46RfK-Qm0/edit)
 
-[Homework solution](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/00_intro/00_homework/solution.pdf)
+[Homework solution](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/daily/00_intro/00_homework/solution.pdf)

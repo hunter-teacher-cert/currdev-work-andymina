@@ -130,28 +130,28 @@ Total length: 2 Weeks
 
 ### Week 00 - Introduction to Convolution
 
-- 00_intro
+- [00_intro](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/00_intro)
   - Students are introduced to 1D convolution as a mean of extracting data from a list of numbers.
-- 01_2d_convolution
+- [01_2d_convolution](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/01_2d_convolution)
   - Students translate their knowledge about 1D convolution into 2D with some simple examples.
-- 02_practice
+- [02_practice](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/02_practice)
   - Students work on three 2D convolution problems: first as a class, then in pairs, and finally on their own. This lesson is meant to get students comfortable with 2D convolution since it's the foundation for the following lessons.
-- 03_code
+- [03_code](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/03_code)
   - Code along lesson where students translate the 2D convolution problems they worked on in 02_practice into code in a similar fashion: first as a class, then in pairs, and finally on their own.
-- 04_simple_kernels
+- [04_simple_kernels](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/04_simple_kernels)
   - Students learn how 2D convolution can be a form of image manipulation and editing. This lesson features four simple kernels: identity, shift, block blur, and sharpen.
 
 ### Week 2 - Advanced Convolutions
 
-- 05_gaussian
+- [05_gaussian](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/05_gaussian)
   - Students are introduced to the Gaussian distribution (1D and 2D) and learn how the Gaussian distribution create a convolution kernel that's useful everywhere.
-- 06_edge_detection
+- [06_edge_detection](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/06_edge_detection)
   - Students are introduced to the basic theory of edge detector which uses a combination of convolution and derivatives to measure the rate of change in pixel intensity/brightness in a small region. In this lesson, students derive the Prewitt edge detector from their knowledge about the block blur kernel.
-- 07_comparing_edge_detectors
+- [07_comparing_edge_detectors](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/07_comparing_edge_detectors)
   - Students learn about another edge detection kernel, the Sobel operator, and compare and constrast the differences between it and the Prewitt operator.
-- 08_project
+- [08_project](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/08_project)
   - Students work on a sumamtive project in pairs that generates a line art image from a source image using edge detection. Students are strongly encouraged to reference old slides, code alongs, and homeworks as this project uses most of the same material.
-- 09_test
+- [09_project](https://github.com/hunter-teacher-cert/currdev-work-andymina/tree/main/unit_plan/daily/09_project)
   - Students continue working on the line art generator project.
 
 ---
@@ -164,11 +164,11 @@ Total length: 2 Weeks
 
 Students are assigned homework in a handful of lessons, all in `resources/assignments/`:
 
-- 00_intro: Students work on two 1D convolution problems
-- 02_practice: Students work on one 2D convolution problem.
-- 03_code: Students translate 02_practice homework into code.
-- 04_simple_kernels: Students code up image manipulation using convolution for the four simple kernels covered in class.
-- 05_gaussian: Students write a method that creates a 2D square Gaussian kernel.
+- [00_intro](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/resources/assignments/00_intro.pdf): Students work on two 1D convolution problems
+- [02_practice](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/resources/assignments/02_practice.pdf): Students work on one 2D convolution problem.
+- [03_code](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/resources/assignments/03_code.pdf): Students translate 02_practice homework into code.
+- [04_simple_kernels](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/resources/assignments/04_simple_kernels.pdf): Students code up image manipulation using convolution for the four simple kernels covered in class.
+- [05_gaussian](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/resources/assignments/05_gaussian.pdf): Students write a method that creates a 2D square Gaussian kernel.
 
 #### Roll for Confidence
 
@@ -185,4 +185,4 @@ These checks shouldn’t take any longer than one minute.
 
 #### Line Art Generator Project
 
-Students are assigned this project to work in pairs. This project is a summative assessment that is the culmination of everything they have studied thus far regarding convolution and edge detection. The project description is in `resources/assignments/`.
+Students are assigned this project to work in pairs. This project is a summative assessment that is the culmination of everything they have studied thus far regarding convolution and edge detection. The project description is in [`resources/assignments/`](https://github.com/hunter-teacher-cert/currdev-work-andymina/blob/main/unit_plan/resources/assignments/08_line_art_generator.pdf).
