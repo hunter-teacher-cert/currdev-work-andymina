@@ -2,9 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 from scipy.signal import convolve2d
-from IPython.display import display
 
-def display_image(image, title=''):
+def display_image(image, title):
     """
     Display the given 2D image with a specified title.
 
@@ -13,7 +12,7 @@ def display_image(image, title=''):
     - title: A string title for the displayed image.
     """
     plt.figure(figsize=(3,3))
-    plt.imshow(image.astype(np.uint8), vmin=0, vmax=255)
+    plt.imshow(image.astype(np.uint8), cmap='gray', vmin=0, vmax=255)
     plt.title(title)
     plt.xticks([])
     plt.yticks([])
@@ -129,7 +128,7 @@ def scharr_edge_detector(img):
 
     return detect_edges(img, scharr_x, scharr_y)
 
-def recolor_image(edge_img, bg_color, fg_color):
+def recolor_image(edge_img, fg_color, bg_color):
     num_rows, num_cols = edge_img.shape
     result = np.zeros((num_rows, num_cols, 3))
     
@@ -155,8 +154,8 @@ def alpha_blend(fg_color, bg_color, fg_intensity):
 
 def get_rgb():
     r = int(input('Enter red value 0-255: '))
-    g = int(input('Enter red value 0-255: '))
-    b = int(input('Enter red value 0-255: '))
+    g = int(input('Enter green value 0-255: '))
+    b = int(input('Enter blue value 0-255: '))
     return [r, g, b]
 
 def make_line_art(img, kernel_type, fg_color, bg_color):
@@ -171,7 +170,7 @@ def make_line_art(img, kernel_type, fg_color, bg_color):
     return line_art
 
 img = read_image(input('Enter file path: ')) # for example, images/shapes.png
-kernel_type = input('Enter kernel (Prewitt, Sobel, Scharr): ')
+kernel_type = input('Enter kernel (Prewitt or Sobel): ')
 
 # get foreground rgb color
 print('Foreground color')
@@ -180,6 +179,8 @@ fg_color = get_rgb()
 # get background rgb color
 print('Background color')
 bg_color = get_rgb()
+
+display_image(img, 'Original')
 
 line_art = make_line_art(img, kernel_type, fg_color, bg_color)
 display_image(line_art, 'Result')

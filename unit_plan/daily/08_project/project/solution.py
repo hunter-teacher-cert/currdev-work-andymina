@@ -170,7 +170,7 @@ def make_line_art(img, kernel_type, fg_color, bg_color):
     return line_art
 
 img = read_image(input('Enter file path: ')) # for example, images/shapes.png
-kernel_type = input('Enter kernel (Prewitt, Sobel, Scharr): ')
+kernel_type = input('Enter kernel (Prewitt or Sobel): ')
 
 # get foreground rgb color
 print('Foreground color')
