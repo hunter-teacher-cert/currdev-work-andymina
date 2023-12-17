@@ -2,11 +2,17 @@
 
 **Course**: Introduction to Computer Vision
 
-**Unit**: Convolutions
+**Grade level**: 11-12th grade
+
+**Unit**: Convolution and Edge Detection
+
+## Course background
+
+The "Introduction to Computer Vision" course is a course offered to students who have already taken AP Computer Science A in Java. 
 
 ## General Overview
 
-(include here description of unit, what class(es) it fits into, when...)
+This 
 
 Students learn what convolution is and how it can be used to extract data, derive information, and modify images.
 
