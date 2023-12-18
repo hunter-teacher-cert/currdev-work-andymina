@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from scipy.signal import convolve2d
 
-def display_image(image):
+def display_image(image, title):
   """
   Display the given 2D image with a specified title.
 

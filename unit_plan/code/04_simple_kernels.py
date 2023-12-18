@@ -20,7 +20,8 @@ def display_image(image):
 
 def read_image(file_path):
   """
-  Reads the image at the file path, converts it to grayscale, and returns the image as an array.
+  Reads the image at the file path, converts it to grayscale, and returns
+  the image as an array.
 
   Parameters:
   - file_path: the file path to an image

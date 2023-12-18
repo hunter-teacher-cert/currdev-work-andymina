@@ -33,7 +33,10 @@ homework_02_kernel = [
 ]
 
 # Convolve using scipy
-homework_02_result = convolve2d(homework_02_input, homework_02_kernel, mode='same', boundary='symm')
+homework_02_result = convolve2d(
+    homework_02_input, homework_02_kernel,
+    mode='same', boundary='symm'
+)
 # Round to nearest int with numpy
 homework_02_result = np.rint(homework_02_result)
 

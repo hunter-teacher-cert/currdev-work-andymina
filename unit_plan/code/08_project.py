@@ -20,7 +20,8 @@ def display_image(image, title):
 
 def read_image(file_path):
     """
-    Reads the image at the file path, converts it to grayscale, and returns the image as an array.
+    Reads the image at the file path, converts it to grayscale, and returns
+    the image as an array.
 
     Parameters:
     - file_path: the file path to an image
@@ -70,13 +71,16 @@ def detect_edges(img, x_kernel, y_kernel):
 
     Returns:
     - An array representing the magnitude of edges detected in the input image.
-      The result is computed as the absolute magnitude of the convolution results using the x and y kernels.
+      The result is computed as the absolute magnitude of the convolution
+      results using the x and y kernels.
 
     Note:
-    - The convolution is performed in 'same' mode to ensure the output has the same dimensions as the input image.
-    - The magnitude of edges is calculated as the square root of the sum of squared x and y edge responses.
+    - The convolution is performed in 'same' mode to ensure the output has the
+      same dimensions as the input image.
+    - The magnitude of edges is calculated as the square root of the sum of
+      squared x and y edge responses.
     """
-    x_edges = convolve2d(img, x_kernel, mode='same') 
+    x_edges = convolve2d(img, x_kernel, mode='same')
     y_edges = convolve2d(img, y_kernel, mode='same')
     res = np.sqrt(x_edges**2 + y_edges**2)
     res = normalize_to_255(res)
@@ -104,7 +108,7 @@ def sobel_edge_detector(img):
         [-2, 0, 2],
         [-1, 0, 1]
     ]
-    
+
     sobel_y = [
         [1, 2, 1],
         [0, 0, 0],
@@ -119,7 +123,7 @@ def scharr_edge_detector(img):
         [-10, 0, 10],
         [-3, 0, 3]
     ]
-    
+
     scharr_y = [
         [3, 10, 3],
         [0, 0, 0],
@@ -131,7 +135,7 @@ def scharr_edge_detector(img):
 def recolor_image(edge_img, fg_color, bg_color):
     num_rows, num_cols = edge_img.shape
     result = np.zeros((num_rows, num_cols, 3))
-    
+
     for row in range(num_rows):
         for col in range(num_cols):
             edge_val = edge_img[row][col]

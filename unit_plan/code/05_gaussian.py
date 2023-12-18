@@ -21,7 +21,8 @@ def create_gaussian(size, sigma = None):
     Create a simple 2D square Gaussian distribution.
 
     Parameters:
-    - size: Integer specifying the size of the output square array (height and width are the same).
+    - size: Integer specifying the size of the output square array
+      (height and width are the same).
     - sigma: Standard deviation of the Gaussian.
 
     Returns:
@@ -37,8 +38,8 @@ def create_gaussian(size, sigma = None):
     # The kernel is square so the center is the same for the row and col
     center = size // 2
 
-    # The Gaussian is a function of the x,y or col, row. Each col,row combination
-    # produces the Gaussian value at that point.
+    # The Gaussian is a function of the x,y or col, row. Each col,row
+    # combination produces the Gaussian value at that point.
     for row in range(size):
         for col in range(size):
             # Squared distance from this point to the center.

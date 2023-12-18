@@ -68,13 +68,13 @@ The root `unit_plan/` folder follows the specification for the project, but ther
 
 ```plaintext
 daily/
-  ├─ xx_lesson/ (i.e. 00_intro)
-    ├─ xx_homework/
-    │  ├─ solution.pdf
-    │  └─ student.pdf
-    ├─ lesson_plan.pdf
-    ├─ slides.pdf
-    └─ README.md (contains links to Google Docs and Slides)
+  |-- xx_lesson/ (i.e. 00_intro)
+    |-- xx_homework/
+    |  |-- solution.pdf
+    |  L-- student.pdf
+    |-- lesson_plan.pdf
+    |-- slides.pdf
+    L-- README.md (contains links to Google Docs and Slides)
 ```
 
 Lesson with code-along components also have two files (`xx_instructor.ipynb` and `xx_student.ipynb`). The first is an instructor aid with completed code and the second is to be distributed to students.
@@ -179,7 +179,7 @@ Students will be asked to “roll for confidence” and respond by showing the i
 3. Okay. Needs some peer-guided practice and some more time to let things sink in. Ideal rating after the lesson.
 4. Pretty confident. Needs some peer-guided practice for more challenging algorithms, but is self-sufficient for what’s covered in class. Ideal rating before a unit test.
 5. Extremely confident. Needs little to no guidance and can tackle problems of exceptional difficulty with relative ease. Indicative of an under-challenged student.
-These checks shouldn’t take any longer than one minute.
+   These checks shouldn’t take any longer than one minute.
 
 ### Summative
 
